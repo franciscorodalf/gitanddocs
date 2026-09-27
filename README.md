@@ -3,6 +3,7 @@
 Guía para instalar `uv`, configurar **Zensical**, levantar el servidor de desarrollo y aprovechar la recarga en tiempo real.
 
 ---
+
 ## ¿Qué son uv y Zensical?
 
 ### `uv`
@@ -13,9 +14,9 @@ Guía para instalar `uv`, configurar **Zensical**, levantar el servidor de desar
 
 **Zensical** es un generador de sitios estáticos pensado específicamente para documentación técnica, desarrollado por el mismo equipo de **MkDocs**. Toma archivos Markdown organizados en carpetas y los convierte en un sitio web navegable, con tema visual, barra de búsqueda y estructura de navegación configurables desde un único archivo central (`zensical.toml`).
 
+Es la herramienta sobre la que trabaja toda esta guía:
 
-
-
+---
 
 ## Paso 1: Instalar `uv`
 
