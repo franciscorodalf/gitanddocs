@@ -3,11 +3,18 @@
 Guía para instalar `uv`, configurar **Zensical**, levantar el servidor de desarrollo y aprovechar la recarga en tiempo real.
 
 ---
-## Antes de empezar: ¿qué son uv y Zensical?
+## ¿Qué son uv y Zensical?
 
 ### `uv`
 
-`uv` es un gestor de paquetes y proyectos para Python desarrollado por **Astral**, una empresa que desarrolla herramientas para el ecosistema de Python. Está escrito en Rust, lo que le permite resolver e instalar dependencias considerablemente más rápido que herramientas tradicionales como `pip`, `pip-tools`, `virtualenv`, `pyenv` o `Poetry`, De hecho, su objetivo es sustituir a todas ellas con una sola herramienta unificada.
+`uv` es un gestor de paquetes y proyectos para Python desarrollado por **Astral**, una empresa que desarrolla herramientas para el ecosistema de Python. Está escrito en Rust, lo que le permite resolver e instalar dependencias considerablemente más rápido que herramientas tradicionales como `pip`, `pip-tools`, `virtualenv`, `pyenv` o `Poetry`. De hecho, su objetivo es sustituir a todas ellas con una sola herramienta unificada.
+
+### Zensical
+
+**Zensical** es un generador de sitios estáticos pensado específicamente para documentación técnica, desarrollado por el mismo equipo de **MkDocs**. Toma archivos Markdown organizados en carpetas y los convierte en un sitio web navegable, con tema visual, barra de búsqueda y estructura de navegación configurables desde un único archivo central (`zensical.toml`).
+
+
+
 
 
 ## Paso 1: Instalar `uv`
